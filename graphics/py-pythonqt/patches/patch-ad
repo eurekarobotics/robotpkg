@@ -1,0 +1,20 @@
+--- extensions/PythonQt_QtAll/PythonQt_QtAll.pro.orig	2023-02-22 13:49:31.632019839 +0000
++++ extensions/PythonQt_QtAll/PythonQt_QtAll.pro	2023-02-22 13:54:57.000000000 +0000
+@@ -22,7 +22,7 @@
+ 
+ QT += gui svg sql network xml xmlpatterns opengl
+ QT += widgets printsupport multimedia multimediawidgets
+-QT += quick qml quickwidgets uitools
++QT += uitools
+ 
+ include ($$PYTHONQT_GENERATED_PATH/com_trolltech_qt_core/com_trolltech_qt_core.pri)
+ include ($$PYTHONQT_GENERATED_PATH/com_trolltech_qt_gui/com_trolltech_qt_gui.pri)
+@@ -33,8 +33,6 @@
+ include ($$PYTHONQT_GENERATED_PATH/com_trolltech_qt_xml/com_trolltech_qt_xml.pri)
+ include ($$PYTHONQT_GENERATED_PATH/com_trolltech_qt_xmlpatterns/com_trolltech_qt_xmlpatterns.pri)
+ include ($$PYTHONQT_GENERATED_PATH/com_trolltech_qt_multimedia/com_trolltech_qt_multimedia.pri)
+-include ($$PYTHONQT_GENERATED_PATH/com_trolltech_qt_qml/com_trolltech_qt_qml.pri)
+-include ($$PYTHONQT_GENERATED_PATH/com_trolltech_qt_quick/com_trolltech_qt_quick.pri)
+ include ($$PYTHONQT_GENERATED_PATH/com_trolltech_qt_uitools/com_trolltech_qt_uitools.pri)
+ 
+ PythonQtWebKit {
