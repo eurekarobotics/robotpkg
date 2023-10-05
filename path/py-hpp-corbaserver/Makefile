@@ -5,6 +5,8 @@
 HPP_PACKAGE=		hpp-corbaserver
 HPP_COMMENT=		Corba server for Humanoid Path Planner
 
+EUREKA_REVISION=	1
+
 CATEGORIES=		path
 
 MAKE_JOBS_SAFE=		no

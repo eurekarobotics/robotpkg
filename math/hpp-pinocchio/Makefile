@@ -5,6 +5,8 @@
 HPP_PACKAGE=		hpp-pinocchio
 HPP_COMMENT=		Wrapping of the kinematic/dynamic chain Pinocchio for HPP.
 
+EUREKA_REVISION=	1
+
 CATEGORIES=		math
 
 include ../../meta-pkgs/hpp/Makefile.common
