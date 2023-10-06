@@ -23,7 +23,7 @@ NAME=			${HPP_PACKAGE}
 ifndef EUREKA_REVISION
   VERSION=		${HPP_VERSION}
 else
-  VERSION=		${HPP_VERSION}-e${EUREKA_REVISION}
+  VERSION=		${HPP_VERSION}.e${EUREKA_REVISION}
   MASTER_SITES=		http://registry.eureka:8081/repository/robotpkg/
 endif
 
