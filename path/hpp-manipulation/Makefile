@@ -5,6 +5,8 @@
 HPP_PACKAGE=		hpp-manipulation
 HPP_COMMENT=		Manipulation problem definition and resolution
 
+EUREKA_REVISION=	1
+
 CATEGORIES=		path
 
 CMAKE_ARGS+=		-DBUILD_TESTING=OFF
