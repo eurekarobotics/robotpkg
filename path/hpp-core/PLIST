@@ -1,4 +1,4 @@
-@comment Tue Oct 9 16:06:39 CEST 2018
+@comment Fri Oct 20 09:32:22 UTC 2023
 include/hpp/core/bi-rrt-planner.hh
 include/hpp/core/collision-pair.hh
 include/hpp/core/collision-path-validation-report.hh
@@ -10,6 +10,8 @@ include/hpp/core/config-validations.hh
 include/hpp/core/config.hh
 include/hpp/core/configuration-shooter.hh
 include/hpp/core/configuration-shooter/gaussian.hh
+include/hpp/core/configuration-shooter/uniform-tpl.hh
+include/hpp/core/configuration-shooter/uniform-tpl.hxx
 include/hpp/core/configuration-shooter/uniform.hh
 include/hpp/core/connected-component.hh
 include/hpp/core/constraint-set.hh

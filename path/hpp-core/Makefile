@@ -4,7 +4,8 @@
 
 HPP_PACKAGE=	hpp-core
 HPP_COMMENT=	Basic classes for general path planning
-PKGREVISION=	2
+
+EUREKA_REVISION=	2
 
 CATEGORIES=	path
 
