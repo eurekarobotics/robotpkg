@@ -5,6 +5,8 @@
 HPP_PACKAGE=	hpp-util
 HPP_COMMENT=	utility tools
 
+EUREKA_REVISION= 1
+
 CATEGORIES=	path
 
 include ../../meta-pkgs/hpp/Makefile.common
