@@ -5,6 +5,8 @@
 HPP_PACKAGE=		hpp-constraints
 HPP_COMMENT=		Define non-linear constraints on robot configurations
 
+EUREKA_REVISION=	1
+
 CATEGORIES=		path
 
 include ../../meta-pkgs/hpp/Makefile.common
