@@ -41,6 +41,8 @@ include ../../devel/boost-libs/depend.mk
 
 DEPEND_ABI.cmake+=	cmake>=3.0.0
 
+CMAKE_ARGS+=-DHPP_DEBUG=ON
+
 # options
 PKG_SUPPORTED_OPTIONS+=		verbose
 PKG_OPTION_DESCR.verbose=	Compile in verbose mode
